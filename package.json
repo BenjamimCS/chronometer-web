@@ -1,0 +1,17 @@
+{
+  "name": "chronometer-web",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A page that provide a chronometer",
+  "scripts": {
+    "build": "tailwindcss -i ./src/css/base.css -o ./src/css/main.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2."
+  },
+  "author": "Benjamim Sousa <uj1kjfomy@mozmail.com>",
+  "license": "MIT"
+}
