@@ -44,7 +44,6 @@ class Clock {
       this.resumed = true
       this.paused = false
 
-      console.log(this.delta)
       setTimeout(() => {
         this.seconds++ 
         this.#count()
